@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    console.log("Got it Global");
     var current_fs, next_fs, previous_fs; //fieldsets
     var opacity;
     var current = 1;
@@ -13,6 +13,7 @@ $(document).ready(function() {
 
         //Add Class Active
         $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+        console.log("Got it Next");
 
         //show the next fieldset
         next_fs.show();
@@ -40,7 +41,7 @@ $(document).ready(function() {
 
         //Remove class active
         $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
-
+        console.log("Got it Previous");
         //show the previous fieldset
         previous_fs.show();
 
