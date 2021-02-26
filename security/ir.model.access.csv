@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_website_recruitment_form_steps_website_recruitment_form_steps,website_recruitment_form_steps.website_recruitment_form_steps,model_website_recruitment_form_steps_website_recruitment_form_steps,,1,0,0,0
